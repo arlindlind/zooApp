@@ -1,0 +1,20 @@
+.ion-padding {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: #666;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+} 

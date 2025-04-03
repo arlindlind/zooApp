@@ -1,0 +1,42 @@
+.ion-padding {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 2em;
+}
+
+h2 {
+  color: #444;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.5em;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+ul {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.last-updated {
+  margin-top: 3rem;
+  font-style: italic;
+  color: #888;
+  font-size: 0.9em;
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+} 
