@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/zooApp/static/css/main.2a4f3fa2.css",
+    "main.js": "/zooApp/static/js/main.d669c860.js",
+    "static/js/653.f0317da6.chunk.js": "/zooApp/static/js/653.f0317da6.chunk.js",
+    "static/js/806.7f7bc451.chunk.js": "/zooApp/static/js/806.7f7bc451.chunk.js",
+    "static/js/923.0d12aced.chunk.js": "/zooApp/static/js/923.0d12aced.chunk.js",
+    "static/js/627.01e9102c.chunk.js": "/zooApp/static/js/627.01e9102c.chunk.js",
+    "static/js/938.f55fb238.chunk.js": "/zooApp/static/js/938.f55fb238.chunk.js",
+    "static/js/247.4b21b5fe.chunk.js": "/zooApp/static/js/247.4b21b5fe.chunk.js",
+    "static/js/82.da6aa7ab.chunk.js": "/zooApp/static/js/82.da6aa7ab.chunk.js",
+    "static/js/768.b9dc0d7a.chunk.js": "/zooApp/static/js/768.b9dc0d7a.chunk.js",
+    "static/js/834.9bff9259.chunk.js": "/zooApp/static/js/834.9bff9259.chunk.js",
+    "static/js/453.40dbba5a.chunk.js": "/zooApp/static/js/453.40dbba5a.chunk.js",
+    "index.html": "/zooApp/index.html",
+    "main.2a4f3fa2.css.map": "/zooApp/static/css/main.2a4f3fa2.css.map",
+    "main.d669c860.js.map": "/zooApp/static/js/main.d669c860.js.map",
+    "653.f0317da6.chunk.js.map": "/zooApp/static/js/653.f0317da6.chunk.js.map",
+    "806.7f7bc451.chunk.js.map": "/zooApp/static/js/806.7f7bc451.chunk.js.map",
+    "923.0d12aced.chunk.js.map": "/zooApp/static/js/923.0d12aced.chunk.js.map",
+    "627.01e9102c.chunk.js.map": "/zooApp/static/js/627.01e9102c.chunk.js.map",
+    "938.f55fb238.chunk.js.map": "/zooApp/static/js/938.f55fb238.chunk.js.map",
+    "247.4b21b5fe.chunk.js.map": "/zooApp/static/js/247.4b21b5fe.chunk.js.map",
+    "82.da6aa7ab.chunk.js.map": "/zooApp/static/js/82.da6aa7ab.chunk.js.map",
+    "768.b9dc0d7a.chunk.js.map": "/zooApp/static/js/768.b9dc0d7a.chunk.js.map",
+    "834.9bff9259.chunk.js.map": "/zooApp/static/js/834.9bff9259.chunk.js.map",
+    "453.40dbba5a.chunk.js.map": "/zooApp/static/js/453.40dbba5a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a4f3fa2.css",
+    "static/js/main.d669c860.js"
+  ]
+}
