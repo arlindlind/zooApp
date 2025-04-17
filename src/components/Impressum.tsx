@@ -1,5 +1,5 @@
 import React from 'react';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButtons, IonButton } from '@ionic/react';
 import './Impressum.css';
 
 const Impressum: React.FC = () => {
@@ -7,13 +7,17 @@ const Impressum: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Rechtliche Hinweise</IonTitle>
+          <IonTitle>Impressum</IonTitle>
+          <IonButtons slot="end">
+            <IonButton routerLink="/home">Home</IonButton>
+            <IonButton routerLink="/datenschutz">Datenschutz</IonButton>
+            <IonButton routerLink="/impressum">Impressum</IonButton>
+          </IonButtons>
         </IonToolbar>
       </IonHeader>
       <IonContent className="ion-padding">
-        <h1>Rechtliche Hinweise</h1>
-        
-        <h2>Kontaktadresse</h2>
+        <h1>Impressum</h1>
+        <h2>Angaben gemäß § 5 TMG</h2>
         <p>
           Zoo-App Project<br />
           Entwickelt von:<br />
@@ -21,7 +25,11 @@ const Impressum: React.FC = () => {
           Arlind Bekiri<br />
           Mehmet Nadir Dere<br />
           Gabriele Logiurato<br />
-          Schweiz<br />
+          Schweiz
+        </p>
+        
+        <h2>Kontakt</h2>
+        <p>
           E-Mail: kontakt@zoo-app.com
         </p>
 
