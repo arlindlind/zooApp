@@ -1,5 +1,5 @@
 import React from 'react';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButtons, IonButton } from '@ionic/react';
 import './Datenschutz.css';
 
 const Datenschutz: React.FC = () => {
@@ -8,6 +8,11 @@ const Datenschutz: React.FC = () => {
       <IonHeader>
         <IonToolbar>
           <IonTitle>Datenschutzerklärung</IonTitle>
+          <IonButtons slot="end">
+            <IonButton routerLink="/home">Home</IonButton>
+            <IonButton routerLink="/datenschutz">Datenschutz</IonButton>
+            <IonButton routerLink="/impressum">Impressum</IonButton>
+          </IonButtons>
         </IonToolbar>
       </IonHeader>
       <IonContent className="ion-padding">
