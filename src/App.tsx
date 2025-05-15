@@ -5,6 +5,7 @@ import { Route, Redirect } from 'react-router-dom';
 import Impressum from './components/Impressum';
 import Datenschutz from './components/Datenschutz';
 import Home from './components/Home';
+import Registrierung from "./components/Registrierung";
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -32,6 +33,7 @@ const App: React.FC = () => {
           <Route  path="/home" component={Home} />
           <Route  path="/impressum" component={Impressum} />
           <Route  path="/datenschutz" component={Datenschutz} />
+          <Route  path="/registrierung" component={Registrierung} />
           <Route path="/home" render={() => <Home />} />
           <Route  path="/" render={() => <Redirect to="/home/" />} />
         </IonRouterOutlet>
