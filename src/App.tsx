@@ -4,6 +4,7 @@ import { IonReactRouter } from '@ionic/react-router';
 import { Route, Redirect } from 'react-router-dom';
 import Impressum from './components/Impressum';
 import Datenschutz from './components/Datenschutz';
+import Home from './components/Home';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -23,18 +24,20 @@ import '@ionic/react/css/display.css';
 
 setupIonicReact();
 
-const App: React.FC = () => (
-  <IonApp>
-    <IonReactRouter>
-      <IonRouterOutlet>
-        <Route exact path="/impressum" component={Impressum} />
-        <Route exact path="/datenschutz" component={Datenschutz} />
-        <Route exact path="/">
-          <Redirect to="/datenschutz" />
-        </Route>
-      </IonRouterOutlet>
-    </IonReactRouter>
-  </IonApp>
-);
+const App: React.FC = () => {
+  return (
+    <IonApp>
+      <IonReactRouter>
+        <IonRouterOutlet>
+          <Route  path="/home" component={Home} />
+          <Route  path="/impressum" component={Impressum} />
+          <Route  path="/datenschutz" component={Datenschutz} />
+          <Route path="/home" render={() => <Home />} />
+          <Route  path="/" render={() => <Redirect to="/home/" />} />
+        </IonRouterOutlet>
+      </IonReactRouter>
+    </IonApp>
+  );
+};
 
 export default App;
